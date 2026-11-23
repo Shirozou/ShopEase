@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';import {ArrowLeft} from 'lucide-react';
+export default function NotFound(){return <div className="container-site py-28 text-center"><p className="section-eyebrow mb-5">404 · Page not found</p><h1 className="page-title">This page wandered off.</h1><p className="text-sm text-muted mt-5">Let's get you back to the good stuff.</p><Link className="button-dark mt-8" to="/"><ArrowLeft size={16}/> Back to home</Link></div>}
